@@ -29,6 +29,14 @@ post_install() {
   echo "enabling bluetooth"
   sudo systemctl enable bluetooth
   sudo systemctl start bluetooth
+
+  echo "enabling printer"
+  sudo systemctl enable cups
+  sudo systemctl start cups
+
+  echo "enabling ntp"
+  sudo systemctl enable ntpd
+  sudo systemctl start ntpd
 }
 
 ## arg 1:  the new package version
