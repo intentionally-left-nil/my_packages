@@ -13,9 +13,6 @@ post_install() {
   sudo systemctl enable NetworkManager
   sudo systemctl start NetworkManager
 
-  echo "enabling sddm"
-  sudo systemctl enable sddm-plymouth
-
   echo "enabling tlp"
   sudo systemctl enable tlp
   sudo systemctl start tlp

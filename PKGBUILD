@@ -11,7 +11,7 @@ _kde_packages=('plasma-meta' 'plasma-wayland-session' 'kde-accessibility-meta' '
 _dev_packages=('git' 'python' 'go' 'gnome-keyring' 'clang' 'ruby' 'nodejs' 'npm' 'elixir' 'rustup' 'jdk-openjdk' 'jdk8-openjdk')
 _admin_packages=('hdparm' 'kdiskmark' 'intel-gpu-tools' 'powertop' 'man-db' 'man-pages' 'reflector' 'archey3' 'zsh' 'zsh-completions' 'zsh-theme-powerlevel10k' 'zsh-syntax-highlighting' 'zsh-autosuggestions' 'pkgfile' 'python-gobject' 'fwupd' 's-tui' 'libva-utils' 'cpio' 'rsync' 'android-tools' 'easyeffects' 'parallel' 'lm_sensors' 'debuginfod' 'zellij' 'alsa-utils' 'strace' 'bind' 'sshfs')
 _rua_deps=('bubblewrap-suid' 'libseccomp' 'xz' 'shellcheck')
-_app_packages=('firefox' 'steam' 'signal-desktop' 'libetebase' 'bitwarden' 'digikam' 'docker' 'docker-compose' 'qemu-full' 'weechat' 'chromium' 'discord' 'libreoffice-still' 'certbot' 'vokoscreen')
+_app_packages=('firefox' 'steam' 'signal-desktop' 'libetebase' 'bitwarden' 'digikam' 'docker' 'docker-buildx' 'docker-compose' 'qemu-full' 'weechat' 'chromium' 'discord' 'libreoffice-still' 'certbot' 'vokoscreen')
 depends=("${_bootstrap_packages[@]}" 
 	"${_kde_packages[@]}" 
 	"${_core_packages[@]}"
